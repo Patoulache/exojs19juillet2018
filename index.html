@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="objet.js"></script>
+    <title>Les forms en folie!</title>
+</head>
+<body>
+    <div id="form1">
+        <form method="POST" action="transfo.php">
+            <div>
+                <label for="nom">Nom de famille :</label>
+                <input type="text" id="nom" class="valeur" placeholder="Ex : Apeuprès">
+            </div>
+            <div>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" class="valeur" placeholder="Ex : Jean-michel">
+            </div>
+            <div>
+                <label for="birth">Date de naissance :</label>
+                <input type="text" id="birth" class="valeur" placeholder="Ex : 27-12-1957">
+            </div>
+            <div>
+                <label for="mail">E-mail :</label>
+                <input type="email" id="mail" class="valeur" placeholder="Ex : jmapeupres@pasloin.com">
+            </div>
+            <div >
+                <input type="button" id="verif" value="Vérification">
+                <input type="button" id="valid" class="hidden" value="Envoyer">
+            </div>
+        </form>
+    </div>
+    <div id="form2">
+
+    </div>
+</body>
+</html>
